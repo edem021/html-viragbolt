@@ -1,0 +1,30 @@
+/* Saját stílusok */
+
+.fejlec-hatter {
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+}
+
+.kartya {
+    transition: transform 0.3s ease;
+}
+
+.kartya:hover {
+    transform: scale(1.05);
+}
+
+/* Extra finomhangolások, ha kell */
+.navbar-brand {
+    font-size: 28px;
+}
