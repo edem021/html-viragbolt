@@ -1,5 +1,12 @@
 /* Saját stílusok */
 
+.main-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
 .fejlec-hatter {
     background-image: url("");
     background-position: center;
@@ -24,7 +31,6 @@
     transform: scale(1.05);
 }
 
-/* Extra finomhangolások, ha kell */
 .navbar-brand {
     font-size: 28px;
 }

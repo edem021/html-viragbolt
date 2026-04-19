@@ -31,94 +31,96 @@
         </div>
     </nav>
 
-    <!-- FELADAT 7 (README): a nav utáni szülő div háttérképe a style.css-ben; osztály: fejlec-hatter -->
-    <div class="fejlec-hatter">
-        <!-- Hero rész -->
-        <section class="hero">
-            <div class="text-center">
-                <!-- FELADAT 2 (README): a „Friss” szót tedd <strong> elembe, a „minden alkalomra” részt <em> elembe -->
-                <h1 class="display-3 fw-bold">Friss virágok minden alkalomra</h1>
-                <p class="lead fs-3 mt-3">Szállítás Budapesten és környékén</p>
+    <div class="main-container">
+        <!-- FELADAT 7 (README): a nav utáni szülő div háttérképe a style.css-ben; osztály: fejlec-hatter -->
+        <div class="fejlec-hatter">
+            <!-- Hero rész -->
+            <section class="hero">
+                <div class="text-center">
+                    <!-- FELADAT 2 (README): a „Friss” szót tedd <strong> elembe, a „minden alkalomra” részt <em> elembe -->
+                    <h1 class="display-3 fw-bold">Friss virágok minden alkalomra</h1>
+                    <p class="lead fs-3 mt-3">Szállítás Budapesten és környékén</p>
+                </div>
+            </section>
+
+            <!-- FELADAT 3 (README): a három bekezdést(p) alakítsd számozott listává <ol> és <li> elemekkel; a szöveg soronként maradjon ugyanaz -->
+            <div class="container py-3">
+                <h2 class="h5 text-center mb-3">Hogyan rendelsz tőlünk?</h2>
+                <p>Rendelés online vagy telefonon.</p>
+                <p>Megegyezünk a szállítás időpontjában.</p>
+                <p>A futár átadja a csokrot.</p>
+            </div>
+
+            <!-- FELADAT 5 (README): az alábbi blokknak adj „kiemelt-uzenet” (vagy saját) osztályt, és a style.css-ben stílusozd -->
+            <aside>
+                <h3>Valentin-napi akció</h3>
+                <p>Február 14-ig 10% kedvezmény minden rózsacsokorra a boltban és a webes rendelésnél is.</p>
+            </aside>
+        </div>
+
+        <!-- Szolgáltatások -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5 display-5 text-primary">Szolgáltatásaink</h2>
+
+                <div class="row g-4">
+                    <!-- FELADAT 1: src + alt; javasolt alt: „Kézzel kötött virágcsokor” -->
+                    <div class="col-md-4">
+                        <div class="card kartya h-100 shadow">
+                            <img src="" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Csokrok</h5>
+                                <p class="card-text">Szép kézzel kötött virágcsokrok születésnapra, évfordulóra és anyák napjára.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FELADAT 1: src + alt; javasolt alt: „Esküvői virágdekoráció” -->
+                    <div class="col-md-4">
+                        <div class="card kartya h-100 shadow">
+                            <img src="" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Esküvői dekoráció</h5>
+                                <p class="card-text">Teljes esküvői virágdekoráció templomba és a rendezvényhelyszínre.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FELADAT 1: src + alt; javasolt alt: „Virágkiszállítás” -->
+                    <div class="col-md-4">
+                        <div class="card kartya h-100 shadow">
+                            <img src="" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Virágküldés</h5>
+                                <p class="card-text">Gyors virágküldés Budapest egész területén, akár aznap.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FELADAT 6 (README): ellenőrizd a szerkezetet a másik három kártyához képest; töltsd ki img src és alt; javasolt alt: „Koszorú és sírcsokor” -->
+                    <div class="col-md-4">
+                        <div class="card kartya h-100 shadow">
+                            <img src="" class="card-img-top" alt="">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Koszorúk és megemlékezés</h5>
+                                <p class="card-text">Méltó koszorúk és sírcsokrok gyászszertartásokra, megemlékezésekre, a kívánt színekben és méretben.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
-        <!-- FELADAT 3 (README): a három bekezdést(p) alakítsd számozott listává <ol> és <li> elemekkel; a szöveg soronként maradjon ugyanaz -->
-        <div class="container py-3">
-            <h2 class="h5 text-center mb-3">Hogyan rendelsz tőlünk?</h2>
-            <p>Rendelés online vagy telefonon.</p>
-            <p>Megegyezünk a szállítás időpontjában.</p>
-            <p>A futár átadja a csokrot.</p>
+        <!-- FELADAT 4 (README): tagold section / div / ul szerint; a szöveg és adatok itt vannak, csak a szerkezetet alakítsd -->
+        <div>
+            <h2>Kapcsolat</h2>
+            <p>Üzenj nekünk bátran, szívesen segítünk a választásban és a rendelésben.</p>
+
+            <p>1052 Budapest, Példa utca 12.</p>
+            <p>Telefon: +36 1 234 5678</p>
+            <p>E-mail: info@viragokbt.hu</p>
         </div>
-
-        <!-- FELADAT 5 (README): az alábbi blokknak adj „kiemelt-uzenet” (vagy saját) osztályt, és a style.css-ben stílusozd -->
-        <aside>
-            <h3>Valentin-napi akció</h3>
-            <p>Február 14-ig 10% kedvezmény minden rózsacsokorra a boltban és a webes rendelésnél is.</p>
-        </aside>
-    </div>
-
-    <!-- Szolgáltatások -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5 display-5 text-primary">Szolgáltatásaink</h2>
-
-            <div class="row g-4">
-                <!-- FELADAT 1: src + alt; javasolt alt: „Kézzel kötött virágcsokor” -->
-                <div class="col-md-4">
-                    <div class="card kartya h-100 shadow">
-                        <img src="" class="card-img-top" alt="">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Csokrok</h5>
-                            <p class="card-text">Szép kézzel kötött virágcsokrok születésnapra, évfordulóra és anyák napjára.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FELADAT 1: src + alt; javasolt alt: „Esküvői virágdekoráció” -->
-                <div class="col-md-4">
-                    <div class="card kartya h-100 shadow">
-                        <img src="" class="card-img-top" alt="">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Esküvői dekoráció</h5>
-                            <p class="card-text">Teljes esküvői virágdekoráció templomba és a rendezvényhelyszínre.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FELADAT 1: src + alt; javasolt alt: „Virágkiszállítás” -->
-                <div class="col-md-4">
-                    <div class="card kartya h-100 shadow">
-                        <img src="" class="card-img-top" alt="">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Virágküldés</h5>
-                            <p class="card-text">Gyors virágküldés Budapest egész területén, akár aznap.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FELADAT 6 (README): ellenőrizd a szerkezetet a másik három kártyához képest; töltsd ki img src és alt; javasolt alt: „Koszorú és sírcsokor” -->
-                <div class="col-md-4">
-                    <div class="card kartya h-100 shadow">
-                        <img src="" class="card-img-top" alt="">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Koszorúk és megemlékezés</h5>
-                            <p class="card-text">Méltó koszorúk és sírcsokrok gyászszertartásokra, megemlékezésekre, a kívánt színekben és méretben.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- FELADAT 4 (README): tagold section / div / ul szerint; a szöveg és adatok itt vannak, csak a szerkezetet alakítsd -->
-    <div>
-        <h2>Kapcsolat</h2>
-        <p>Üzenj nekünk bátran, szívesen segítünk a választásban és a rendelésben.</p>
-
-        <p>1052 Budapest, Példa utca 12.</p>
-        <p>Telefon: +36 1 234 5678</p>
-        <p>E-mail: info@viragokbt.hu</p>
     </div>
 
     <footer class="bg-primary text-white py-4 text-center">

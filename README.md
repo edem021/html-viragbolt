@@ -90,3 +90,23 @@ A navigáció alatt van egy **szülő `div`**, ami a **hero szekciót**, a **„
 ---
 
 *Tipp a diáknak:* az [MDN HTML](https://developer.mozilla.org/hu/docs/Web/HTML) és [MDN CSS](https://developer.mozilla.org/hu/docs/Web/CSS) oldalain megtalálod az elemeket, attribútumokat és a stílusok alapjait.
+
+
+**eddig az AI irta a feladatokat de most irok én is egy párat**
+
+
+# 8. Feladat: állits be egy maximum szélességet az oldalnak 1200px-re
+
+például ha valaki mondjuk meg akar nézni egy oldalt egy ultrawide monitoron annak ha nincs beállitva egy max szélesség az oldalon akkor nagyon furcsán tud kinézni az oldal, ezért általában megszoktunk adni egy max szélességet az oldalnak.
+
+# 9. Feladat: ha beállitottad a hátterek az oldalnak akkor látni fogod hogy nem olyan olvasható az összes szöveg ami benne van
+
+1. Adj meg másik szint a betűknek a hátteren belül ahol kevésbé látszik a szöveg
+2. Nemtudom hogy tanultátok e róla de ha igen akkor állits be "shadow"-t is a betüknek
+
+# 10. Feladat: Az AI rossz helyre tette a kapcsolat részt az oldalon mert az a footerben szokott elhelyezkedni.
+
+1. Helyezd azt az egész div-et a footerbe a "p" alá
+2. Ha nem alatta helyezkedik(hanem mellette) el akkor flex-el rakd alá
+
+**Ha esetleg ezekkel kész vagy akkor nyugodtan játszhatsz a css résszel hogy kicsit szépitsd az oldalt.**
